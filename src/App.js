@@ -1,11 +1,26 @@
 import React from "react";
+import theme from "./theme/theme";
 
 import "./App.css";
+import { ThemeProvider } from "@material-ui/core";
+import Navbar from "./layout/navbar/navbar";
+import Footer from "./layout/footer/footer";
+import {Switch, Route} from 'react-router-dom'
+import HospitalPage from './pages/hospital/hospitalPage'
+
+
 
 function App() {
+ 
   return (
     <div className="App">
-      <h1>hi, I am the new Project here</h1>
+      <ThemeProvider theme={theme}>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' component={HospitalPage} /> 
+        </Switch>
+        <Footer />
+      </ThemeProvider>
     </div>
   );
 }
