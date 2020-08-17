@@ -7,6 +7,7 @@ import Navbar from "./layout/navbar/navbar";
 import Footer from "./layout/footer/footer";
 import {Switch, Route} from 'react-router-dom'
 import HospitalPage from './pages/hospital/hospitalPage'
+import ProductOverview from "./Component/ProductOverView/ProductOverview";
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Navbar />
         <Switch>
-          <Route exact path='/' component={HospitalPage} /> 
+          <Route exact path='/' component={ProductOverview} /> 
         </Switch>
         <Footer />
       </ThemeProvider>
