@@ -5,6 +5,7 @@ import product from "../../assets/other.png";
 import spices from "../../assets/Spices.png";
 import herbs from "../../assets/herbs.png";
 import seeds from "../../assets/seeds.png";
+import { Link } from "react-router-dom";
 
 const ProductOverview = () => {
   const classes = useStyle();
@@ -12,7 +13,7 @@ const ProductOverview = () => {
   return (
     <Fragment>
       {MenusItem.map((item) => (
-        <Grid item key={item.id} >
+        <Grid item key={item.id}>
           <Grid
             container
             style={{
@@ -22,6 +23,8 @@ const ProductOverview = () => {
             alignItems="center"
             direction="row"
             className={classes.infoBackground}
+            component={Link}
+            to={item.link}
           >
             <Grid className={classes.card}>
               <Typography variant="h6">{item.title.toUpperCase()}</Typography>
@@ -33,10 +36,12 @@ const ProductOverview = () => {
     </Fragment>
   );
 };
-export default  ProductOverview
+export default ProductOverview;
 
 const useStyle = makeStyles((theme) => ({
   infoBackground: {
+    textDecoration: "none",
+    color: "black",
     ...theme.typography.background,
     [theme.breakpoints.down("sm")]: {
       width: "15rem",
@@ -62,20 +67,24 @@ const Menu = [
     image: herbs,
     title: "Herbs",
     id: 1,
+    link: "/herbs",
   },
   {
     image: seeds,
     title: "Seeds",
     id: 2,
+    link: "/seeds",
   },
   {
     image: spices,
     title: "Spices",
     id: 3,
+    link: "/spices",
   },
   {
     image: product,
     title: "Specials",
     id: 1,
+    link: "/specialProduct",
   },
 ];

@@ -14,6 +14,7 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import ExploreIcon from "@material-ui/icons/Explore";
+import { Link } from "react-router-dom";
 const SpecialListItem = ({ product }) => {
   const classes = useStyles();
   return (
@@ -47,7 +48,12 @@ const SpecialListItem = ({ product }) => {
                   </Typography>
                 </Grid>
                 <Grid item style={{ margin: "1rem" }}>
-                  <Button className={classes.order} variant="outlined">
+                  <Button
+                    className={classes.order}
+                    variant="outlined"
+                    component={Link}
+                    to={`/specialProduct/${product.id}`}
+                  >
                     Learn Now{" "}
                     <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
                   </Button>

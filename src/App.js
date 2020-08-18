@@ -12,6 +12,7 @@ import ProductPage from "./pages/ProductPage/ProductPage";
 import SpicesPage from "./pages/SpicesPage/SpicesPage";
 import SecondaryProducts from "./pages/SecondaryProductPage/SecondaryPoductPage";
 import SeedsPage from "./pages/SeedsPage/SeedsPage";
+import ProductDetail from "./pages/ProductDetails/ProductDetails";
 
 function App() {
   return (
@@ -25,7 +26,11 @@ function App() {
           <Route exact path="/spices" component={SpicesPage} />
           <Route exact path="/specialProduct" component={SecondaryProducts} />
           <Route exact path="/seeds" component={SeedsPage} />
-          
+
+          <Route path={"/specialProduct/:id"} component={ProductDetail} />
+          <Route path={"/seeds/:id"} component={ProductDetail} />
+          <Route path={"/spices/:id"} component={ProductDetail} />
+          <Route path={"/herbs/:id"} component={ProductDetail} />
         </Switch>
         <Footer />
       </ThemeProvider>

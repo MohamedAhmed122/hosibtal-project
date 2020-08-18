@@ -9,11 +9,12 @@ import {
   Button,
 } from "@material-ui/core";
 
-import CategoryIcon from '@material-ui/icons/Category';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import CategoryIcon from "@material-ui/icons/Category";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
-import ExploreIcon from '@material-ui/icons/Explore';
+import ExploreIcon from "@material-ui/icons/Explore";
+import { Link } from "react-router-dom";
 const HerbsListItem = ({ product }) => {
   const classes = useStyles();
   return (
@@ -23,20 +24,36 @@ const HerbsListItem = ({ product }) => {
           <CardContent>
             <Grid container>
               <Grid item>
-                <img src={product.photo} className={classes.img} alt=" The product " />
+                <img
+                  src={product.photo}
+                  className={classes.img}
+                  alt=" The product "
+                />
                 <Grid item style={{ textAlign: "center" }}>
                   <Typography variant="h6" style={{ color: "#1d8794" }}>
-                  <ShoppingBasketIcon style={{ marginRight: "0.3rem" }} /> {product.name}
+                    <ShoppingBasketIcon style={{ marginRight: "0.3rem" }} />{" "}
+                    {product.name}
                   </Typography>
-                  <Typography variant="h6" style={{ color: "#1d8794"}}>
-                  <CategoryIcon style={{ marginRight: "0.3rem",color: '#ecce76' }}  />  {product.category}
+                  <Typography variant="h6" style={{ color: "#1d8794" }}>
+                    <CategoryIcon
+                      style={{ marginRight: "0.3rem", color: "#ecce76" }}
+                    />{" "}
+                    {product.category}
                   </Typography>
-                  <Typography variant="h6" style={{ color: "#1d8794"}}>
-                  <ExploreIcon style={{ marginRight: "0.3rem", color: '#ecce76' }}  /> Originally From {product.originOfBasil}
+                  <Typography variant="h6" style={{ color: "#1d8794" }}>
+                    <ExploreIcon
+                      style={{ marginRight: "0.3rem", color: "#ecce76" }}
+                    />{" "}
+                    Originally From {product.originOfBasil}
                   </Typography>
                 </Grid>
                 <Grid item style={{ margin: "1rem" }}>
-                  <Button className={classes.order} variant="outlined">
+                  <Button
+                    className={classes.order}
+                    variant="outlined"
+                    component={Link}
+                    to={`/herbs/${product.id}`}
+                  >
                     Learn Now{" "}
                     <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
                   </Button>
@@ -54,14 +71,6 @@ const HerbsListItem = ({ product }) => {
   );
 };
 export default HerbsListItem;
-
-
-
-
-
-
-
-
 
 const useStyles = makeStyles((theme) => ({
   learn: {
