@@ -18,39 +18,7 @@ const Footer = () => {
           <Grid item className={classes.gridItem}>
             <Grid container direction="column" spacing={2}>
               <Grid item component={Link} to="/" className={classes.link}>
-                Hospitals
-              </Grid>
-            </Grid>
-          </Grid>
-          <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
-              <Grid item component={Link} to="/Labs" className={classes.link}>
-                Labs
-              </Grid>
-              <Grid item component={Link} to="/" className={classes.link}>
-                ..
-              </Grid>
-              <Grid item component={Link} to="/" className={classes.link}>
-                ..
-              </Grid>
-              <Grid item component={Link} to="/" className={classes.link}>
-                ....
-              </Grid>
-            </Grid>
-          </Grid>
-          <Grid item className={classes.gridItem}>
-            <Grid container direction="column" spacing={2}>
-              <Grid item component={Link} to="/nurses" className={classes.link}>
-                Nurses
-              </Grid>
-              <Grid item component={Link} to="/" className={classes.link}>
-                ...
-              </Grid>
-              <Grid item component={Link} to="/" className={classes.link}>
-                ...
-              </Grid>
-              <Grid item component={Link} to="/" className={classes.link}>
-                ...
+                Home
               </Grid>
             </Grid>
           </Grid>
@@ -59,16 +27,35 @@ const Footer = () => {
               <Grid
                 item
                 component={Link}
-                to="/medicines"
+                to="/products"
+                className={classes.link}
+                style={{marginLeft:'0.6rem'}} 
+              >
+                Products
+              </Grid>
+              <Grid item component={Link} style={{marginLeft:'0.6rem'}}  to="/herbs" className={classes.link}>
+                Herbs
+              </Grid>
+              <Grid item component={Link} style={{marginLeft:'0.6rem'}} to="/spices" className={classes.link}>
+                Spices
+              </Grid>
+              <Grid item component={Link} style={{marginLeft:'0.6rem'}}  to="/seeds" className={classes.link}>
+                Seeds
+              </Grid>
+              <Grid
+                item
+                component={Link}
+                to="/specialProduct"
                 className={classes.link}
               >
-                Medicines
+                Special Products
               </Grid>
-              <Grid item component={Link} to="/" className={classes.link}>
-                ....
-              </Grid>
-              <Grid item component={Link} to="/about" className={classes.link}>
-                ....
+            </Grid>
+          </Grid>
+          <Grid item className={classes.gridItem}>
+            <Grid container direction="column" spacing={2}>
+              <Grid item component={Link} to="/nurses" className={classes.link}>
+                About Us
               </Grid>
             </Grid>
           </Grid>
@@ -129,10 +116,9 @@ export default Footer;
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor: "#FFBA60",
+    backgroundColor: "#ecce76",
     width: "100%",
     zIndex: 1302,
-    
   },
   // adornment: {
   //   width: "25em",
@@ -141,15 +127,16 @@ const useStyles = makeStyles((theme) => ({
   //     width: "21em"
   //   },
   //   [theme.breakpoints.down("xs")]: {
-  //     width: "15em"
+  //     width: "15em"1d8794
   //   }
   // },
   link: {
-    color: "#0b72B9",
+    color: "white",
     fontFamily: "Arial",
-    fontSize: "0.9rem",
-    fontWeight: 700,
+    fontSize: "1.1rem",
+    fontWeight: 500,
     textDecoration: "none",
+    
   },
   gridItem: {
     margin: "3em",

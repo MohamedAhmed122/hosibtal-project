@@ -17,7 +17,7 @@ const ProductOverview = () => {
           <Grid
             container
             style={{
-              marginBottom: "4rem",
+              marginBottom: "2rem",
               backgroundImage: `url(${item.image})`,
             }}
             alignItems="center"

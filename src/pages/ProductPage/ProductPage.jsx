@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { Grid,  makeStyles, Typography } from "@material-ui/core";
+import { Grid, makeStyles, Typography } from "@material-ui/core";
 import ProductOverview from "../../Component/ProductOverview/ProductOverview";
 import Background from "../../assets/background.png";
 
@@ -9,9 +9,9 @@ const ProductPage = () => {
 
   return (
     <Fragment>
-       <Grid
+      <Grid
         container
-        style={{ height: "25em", marginBottom: "8rem" }}
+        style={{ height: "25em", marginBottom: "12rem" }}
         alignItems="center"
         direction="row"
         className={classes.infoBackground}
@@ -22,8 +22,14 @@ const ProductPage = () => {
           </Typography>
         </Grid>
       </Grid>
-      <Grid container justify="space-around">
-        <ProductOverview />
+      <Grid container>
+        <Grid item lg={1}></Grid>
+        <Grid item lg={10}>
+          <Grid container justify="space-around">
+            <ProductOverview />
+          </Grid>
+        </Grid>
+        <Grid item lg={10}></Grid>
       </Grid>
     </Fragment>
   );

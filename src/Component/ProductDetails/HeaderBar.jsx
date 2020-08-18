@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Grid, Typography, makeStyles } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
 import EcoIcon from "@material-ui/icons/Eco";
 
 const Header = ({ Product }) => {

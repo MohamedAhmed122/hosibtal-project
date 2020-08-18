@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <Fragment>
       <ElevationScroll>
-        <AppBar className={classes.appBar}>
+        <AppBar className={classes.appBar} >
           <Toolbar>
           
             {match ? <Drawer/> : <NavbarTabs />}

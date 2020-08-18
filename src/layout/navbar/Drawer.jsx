@@ -17,10 +17,12 @@ const Drawer = () => {
   const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
   const DrawersItem = [
-    { name: "hospitals", link: "/" },
-    { name: "Labs", link: "/service" },
-    { name: "Nurses", link: "/revolution" },
-    { name: "Medicines", link: "/about" },
+    { name: " Home ", link: "/" },
+    { name: " Products ", link: "/products" },
+    { name: " Herbs ", link: "/herbs" },
+    { name: " Special Products", link: "/seeds" },
+    { name: " Spices ", link: "/spices" },
+    { name: " About Us ", link: "/about" },
   ];
 
   return (
@@ -72,14 +74,14 @@ export default Drawer;
 
 const useStyles = makeStyles((theme) => ({
   drawer: {
-    backgroundColor: "#FFBA60",
+    backgroundColor: "#ecce76",
   },
   text: {
     color: "black",
     ...theme.typography.drawer,
   },
   estimate: {
-    backgroundColor: "#0b72B9",
+    backgroundColor: "#15888d",
     ...theme.typography.estimate,
   },
   ToolbarMargin: {
