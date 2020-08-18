@@ -56,23 +56,5 @@ const useStyle = makeStyles((theme) => ({
       marginLeft: "7rem",
     },
   },
-  subCard: {
-    marginBottom: "4rem",
-    boxShadow: theme.shadows[10],
-    borderRadius: 15,
-    borderTopStyle: "solid",
-    borderBottomStyle: "solid",
-    borderWidth: "5px",
-    borderColor: "#1d8794",
-
-    [theme.breakpoints.down("sm")]: {
-      marginBottom: "3rem",
-    },
-
-    "&:hover": {
-      boxShadow: theme.shadows[4],
-      borderWidth: "8px",
-      borderBottomStyle: "solid",
-    },
-  },
+  
 }));

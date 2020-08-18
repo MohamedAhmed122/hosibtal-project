@@ -31,7 +31,7 @@ const Data =[
         feet: '20 ft container load of calendula, marigold :4 ton - 40 ft container load of calendula, marigold :  8 ton.  ',
         description:' Calendula, marigold is applied to the skin and mucous membrane for inflammations and skin diseases  Calendula, marigold has been used as a tea for various conditions and as a topical cream .Stem & bells max 3%  Admixture max. 5% - Minerals max 0.5%.',
         photo: 'https://i.ibb.co/nw1LSRy/Calendula1.png',
-        image: 'https://i.ibb.co/6YH8pJm/Calendula2.png'
+        image:'https://i.ibb.co/kMH2pr7/herbs1.jpg'
     },
     {
         id: '3',
