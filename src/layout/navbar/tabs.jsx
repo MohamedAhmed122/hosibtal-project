@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from "react";
 import { Tabs, Tab, makeStyles, Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import MenuDropdown from "./Menu";
+// import MenuDropdown from "./Menu";
 
 const NavbarTabs = () => {
   const [value, setValue] = useState(0);
@@ -18,13 +18,13 @@ const NavbarTabs = () => {
         <Tab
           component={Link}
           to="/"
-          label="Hospitals"
+          label="Home"
           className={classes.tabs}
         />
         <Tab
-          label="Labs"
+          label="Products"
           component={Link}
-          to="/labs"
+          to="/products"
           //   aria-owns={anchorEl ? "simple-menu" : null}
           //   aria-haspopup={anchorEl ? "true" : null}
           //   onMouseOver={(e) => {
@@ -33,13 +33,7 @@ const NavbarTabs = () => {
           //   }}
         />
         <Tab
-          label="Nurses"
-          component={Link}
-          to="/nurses"
-          className={classes.tabs}
-        />
-        <Tab
-          label="Medicines"
+          label="About Us"
           component={Link}
           to="/medicines"
           className={classes.tabs}
@@ -48,10 +42,10 @@ const NavbarTabs = () => {
       <Button
         variant="contained"
         component={Link}
-        to="/login"
+        to="/contact"
         className={classes.btn}
       >
-        Login
+        Contact Us
       </Button>
       {/* <MenuDropdown
         open={open}

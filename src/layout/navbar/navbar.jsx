@@ -10,6 +10,7 @@ import { ElevationScroll } from "../utils.js/utils";
 import NavbarTabs from "./tabs";
 import Drawer from "./Drawer";
 
+
 const Navbar = () => {
   const classes = useStyles();
   const theme = useTheme();
@@ -19,6 +20,7 @@ const Navbar = () => {
       <ElevationScroll>
         <AppBar className={classes.appBar}>
           <Toolbar>
+          
             {match ? <Drawer/> : <NavbarTabs />}
           </Toolbar>
         </AppBar>
@@ -29,15 +31,25 @@ const Navbar = () => {
 };
 export default Navbar;
 
+
+
+
+
+
+
+
+
+
+
 const useStyles = makeStyles((theme) => ({
   ToolbarMargin: {
     ...theme.mixins.toolbar,
-    marginBottom: "3em",
+    marginBottom: "",
     [theme.breakpoints.down("md")]: {
-      marginBottom: "2em",
+      marginBottom: "",
     },
     [theme.breakpoints.down("xs")]: {
-      marginBottom: "1.3em",
+      marginBottom: "",
     },
   },
 

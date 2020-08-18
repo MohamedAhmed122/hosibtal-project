@@ -13,8 +13,8 @@ const Data =[
         Usage: 'herbs , Medicinal plants , aromatic , herbal tea, Seasonings, flavor, spices, dried vegetables . ',
         feet: '20 ft container load of basil :6 ton - 40 ft container load of basil :11 ton .',
         description:' Same smell of the fresh basil. Free of alive or dead insects Free of mouldy or bad smell, Moisture  8 - 10%max Vaporous oil min. 0.3%',
-        image: '/assets/Basil.png',
-        photo: '/assets/bsil2.png'
+        image: 'https://i.ibb.co/HVYGFy7/bsil2.png',
+        photo: 'https://i.ibb.co/H2TT0YS/Basil.png'
     },
     {
         id: '2',
@@ -30,8 +30,8 @@ const Data =[
         Usage: 'Part use: flowers, petal, tea bag cut',
         feet: '20 ft container load of calendula, marigold :4 ton - 40 ft container load of calendula, marigold :  8 ton.  ',
         description:' Calendula, marigold is applied to the skin and mucous membrane for inflammations and skin diseases  Calendula, marigold has been used as a tea for various conditions and as a topical cream .Stem & bells max 3%  Admixture max. 5% - Minerals max 0.5%.',
-        image: '/assets/Calendula.png',
-        photo: '/assets/Calendula4.png'
+        photo: 'https://i.ibb.co/nw1LSRy/Calendula1.png',
+        image: 'https://i.ibb.co/6YH8pJm/Calendula2.png'
     },
     {
         id: '3',
@@ -47,8 +47,8 @@ const Data =[
         Usage: 'Part use: lowers, petal, tea bag cut, pollen   ',
         feet: '20 ft container load of chamomile :3.5 ton - 40 ft container load of chamomile :7 ton ',
         description:'Chamomile is applied to the skin and mucous membrane for inflammations and skin diseases and Chamomile has been used as a tea for various conditions and as a topical cream.',
-        image: '/assets/chamomile.png',
-        photo: '/assets/chamomile.png'
+        photo: 'https://i.ibb.co/09wPGmB/camomile-PNG676.png',
+        image: 'https://i.ibb.co/4VHfVXy/chamomile.png'
     },
     {
         id: '4',
@@ -64,8 +64,8 @@ const Data =[
         Usage: ' Part use: leaves - crushed, whole',
         feet: '20 ft container load of coriander leaves :5 ton  -  40 ft container load of coriander leaves :10 ton .',
         description:' People use the seed for medicine. Coriander is used for digestion problems including upset stomach, loss of appetite, hernia, nausea diarrhea, bowel spasms, and intestinal gas. It is also used to treat  measles, hemorrhoids, toothaches, worms, and joint pain, as well as infections caused by bacteria and fungus .',
-        image: '/assets/corianderleavs.png',
-        photo: '/assets/corianderleavs.png'
+        image: 'https://i.ibb.co/P9qrnQL/purepng-com-parsley-leavesfood-leaf-parsley-9415246383429y0vp.png',
+        photo: 'https://i.ibb.co/991XNcP/purepng-com-parsley-leaffood-leaf-parsley-941524638572iyowc.png'
     },
     {
         id: '5',
@@ -81,8 +81,8 @@ const Data =[
         Usage: 'Part use: Leaves or partite or crushed or tips or seeds ',
         feet: ' 20 ft container load of dill :6 ton  -  40 ft container load of dill :12 ton .',
         description:' Dill is used for digestion problems including loss of appetite, intestinal gas Other uses for dill include treatment of fever and colds, cough, bronchitis ',
-        image: '/assets/dill.png',
-        photo: '/assets/dill2.png'
+        photo: 'https://i.ibb.co/Kzt3bkf/Anethumgraveolens-Herb-Dill-Blue-Green-Leaves-Bright-Yellow-Flowers-and-Golden-Seeds-on-a-Kitchen-Su.png',
+        image: 'https://i.ibb.co/L1x2g9G/dill-png-clip-art-11546980497pdijkzqxi4.png'
     },
     {
         id: '6',
@@ -98,8 +98,8 @@ const Data =[
         Usage: 'Part use: flowers,  petal,  tea bag cut , powder.',
         feet: ' 20 ft container load of hibiscus :3.5 ton - 40 ft container load of hibiscus :7 ton .',
         description:'uses of hibiscus: herbs, Medicinal plants, herbal tea, ingredients, flavor . ',
-        image: '/assets/Hibiscus.png',
-        photo: '/assets/Hibiscus2.png'
+        photo: 'https://i.ibb.co/yFN4Pkk/unnamed.jpg',
+        image: 'https://i.ibb.co/ZGmKTtx/16509857-hibiscus-sabdariffa-or-roselle-fruits-isolated-on-white-background.jpg'
     },
     {
         id: '7',
@@ -115,8 +115,8 @@ const Data =[
         Usage: 'Part use: grass. 5 mm, 10 mm',
         feet: ' 20 ft container load of lemon grass :6 ton - 40 ft container load of lemon grass :12 ton',
         description:'uses of lemon grass: herbs , Medicinal plants , herbal tea, ingredients, Seasonings, flavor, spices ,It is also used to kill germs and as a mild astringent. Some people apply lemongrass and its essential oil directly to the skin for headache, stomachache, abdominal pain, and muscle pain. By inhalation, the essential oil of lemongrass is used as aromatherapy for muscle pain . ',
-        image: '/assets/lemongrass.png',
-        photo: '/assets/lemongrass2.png'
+        image: 'https://i.ibb.co/VMmyYxD/loose-leaf-herbal-tea-sweet-lemongrass-1-5e20dfb9-3a54-43a0-8637-257f420e7954-860x.png',
+        photo: 'https://i.ibb.co/pQyb4ck/HTB1kf-RSd-HSYBu-Nj-Sspi760-Nzp-Xa-S.png'
     },
     {
         id: '8',
@@ -132,8 +132,8 @@ const Data =[
         Usage: 'Part use: leaves or crushed',
         feet: '20 ft container load of Majorana :6 ton - 40 ft container load of Majorana :12 ton .',
         description:' Uses  of marjoram: herbs, Medicinal plants, herbal tea, ingredients, Seasonings, flavor, spices, People make medicine from marjoram’s flowers, leaves, and oil. Marjoram is commonly used for runny nose, coughs, colds, infections, and various digestion problems and marjoram  oil are used as flavorings  .',
-        image: '/assets/marjoram.png',
-        photo: '/assets/marjoram.png'
+        image: 'https://i.ibb.co/cLs9yNc/marjoram.jpg',
+        photo: 'https://i.ibb.co/jzwX7WP/Marjoram-2017-4-copy.jpg'
     },
     {
         id: '9',
@@ -149,8 +149,8 @@ const Data =[
         Usage: ' Part use: leaves, crushed, Moringa seeds',
         feet: '20 ft container load of Moringa :6 ton - 40 ft container load of Moringa :12 ton .',
         description:'uses of moringa , uses aromatic , herbal tea, ingredients, Seasonings, flavor, spices.',
-        image: '/assets/Moringa.png',
-        photo: '/assets/Moringa2.png'
+        image: 'https://i.ibb.co/PxWsKP0/173-1731947-drumstick-vegetable-png-moringa-oleifera-transparent-png.png',
+        photo: 'https://i.ibb.co/PxWsKP0/173-1731947-drumstick-vegetable-png-moringa-oleifera-transparent-png.png'
     },
     {
         id: '10',
@@ -166,8 +166,8 @@ const Data =[
         Usage: 'Part use: leaves, crushed, Moringa seeds. ',
         feet: '20 ft container load of Origanum :6 ton - 40 ft container load of Origanum :12 ton .',
         description:' Oregano is scientifically known as Origanum vulgare and belongs to the mint family (Lamiaceae). In Greek, oregano is called “joy of the mountains.” It is also known as wild marjoram. The oregano plant is a perennial which grows up to two feet.',
-        image: '/assets/oregano.png',
-        photo: '/assets/oregano2.png'
+        image: 'https://i.ibb.co/X83DD3r/dry-oregano.png',
+        photo: 'https://i.ibb.co/sQ2cb5D/Origanum-6037-Edit-copy.jpg'
     },
 
     {
@@ -184,8 +184,8 @@ const Data =[
         Usage: 'Part use:leaves crushed, whole',
         feet: '20 ft container load of parsley :6 ton - 40 ft container load of parsley :12 ton .',
         description:'Parsley leaves and roots are popular as condiments worldwide, it is very popular, Parsley has been used as a source of vitamins and minerals, it is amazing herb .',
-        image: '/assets/Parsley.png',
-        photo: '/assets/Parsley.png'
+        image: 'https://i.ibb.co/W5ZhfjZ/pngtree-fresh-coriander-green-leaf-realistic-parsley-png-image-3688072.jpg',
+        photo: 'https://i.ibb.co/991XNcP/purepng-com-parsley-leaffood-leaf-parsley-941524638572iyowc.png'
     },
     {
         id: '12',
@@ -201,8 +201,8 @@ const Data =[
         Usage: ' Part use: leaves crushed, whole, TBC',
         feet: '20 ft container load of peppermint :5 ton - 40 ft container load of peppermint :10 ton .',
         description:'  Uses of peppermint: herbs , Medicinal plants , aromatic , herbal tea, ingredients, Seasonings, flavor, spices, Peppermint is used to add flavor or fragrance to foods, cosmetics, soaps, toothpastes, mouthwashes, and other products like herbal tea, and it may have some medicinal uses .',
-        image: '/assets/PEPPERMINT.png',
-        photo: '/assets/PEPPERMINT2.png'
+        image: 'https://i.ibb.co/py6GJH5/240-2403086-peppermint-png-pic-peppermint-png.png',
+        photo: 'https://i.ibb.co/py6GJH5/240-2403086-peppermint-png-pic-peppermint-png.png'
     },
     {
         id: '13',
@@ -218,8 +218,8 @@ const Data =[
         Usage: 'Part use: leavesWhole , Crushed , TBC, and powder',
         feet: '20 ft container load of sage :6 ton - 40 ft container load of sage :12 ton .',
         description:'Sage is used for digestive problems, including loss of appetite, gas flatulence), stomach pain (gastritis), diarrhea, bloating, and  heartburn. It is also used for reducing overproduction of perspiration and saliva; and for depression, memory loss, and Alzheimer’s disease . ',
-        image: '/assets/Sage2.png',
-        photo: '/assets/Sage2.png'
+        photo: 'https://i.ibb.co/ZfXbVz3/211-2111187-sage-herb-sage-hd-png-download.png',
+        image: 'https://i.ibb.co/vQ6LSd7/sage-sage-11563227008y9ia1tkdvx.png'
     },
     {
         id: '14',
@@ -235,8 +235,8 @@ const Data =[
         Usage: 'Part use: leaves crushed, whole, TBC',
         feet: '20 ft container load of Spearmint :6 ton - 40 ft container load of Spearmint :11 ton .',
         description:'  uses of spearmint: herbs , Medicinal plants , aromatic , herbal tea, ingredients, Seasonings, flavor, spices . ',
-        image: '/assets/Spearmintяяя.png',
-        photo: '/assets/Spearmintяяя3.png'
+        image: 'https://i.ibb.co/YNcmvLk/kisspng-peppermint-essential-oil-spearmint-lekarnar-com-sp-midori-cannabis-infused-breath-strips-fre.jpg',
+        photo: 'https://i.ibb.co/M92P4j6/png-transparent-green-herbal-plant-mentha-spicata-peppermint-maghrebi-mint-tea-mentha-longifolia-min.png'
     },
     {
         id: '15',
@@ -252,8 +252,8 @@ const Data =[
         Usage: 'Part use: leaves crushed, whole, TBC',
         feet: '20 ft container load of anise :12.5 ton - 40 ft container load of anise :25 ton .',
         description:'Anise is used for upset stomach, intestinal gas, “runny nose” and as an   expectorant to increase productive cough, as a diuretic to increase urine flow.',
-        image: '/assets/aniseseeds.png',
-        photo: '/assets/aniseseeds.png'
+        image: 'https://i.ibb.co/N9K6zSJ/Anise-1024x1024-2x.png',
+        photo: 'https://i.ibb.co/N9K6zSJ/Anise-1024x1024-2x.png'
     },
 
     {
@@ -270,8 +270,8 @@ const Data =[
         Usage: 'Seeds',
         description: 'uses caraway seeds: herbs , Medicinal plants , aromatic , herbal tea, ingredients, Seasonings, flavor, spices, Caraway is used for digestive problems including heartburn, bloating, gas, loss   of appetite, and mild spasms of the stomach and intestines. Caraway oil is also used to help people cough up phlegm, improve control of urination, kill bacteria in the body, and relieve constipation. .',
         feet:'20 ft container load of caraway :12 ton - 40 ft container load of caraway :25 ton .',
-        image: '/assets/dill2.png',
-        photo: '/assets/dill2.png'
+        photo: 'https://i.ibb.co/258G9m0/images.jpg',
+        image: 'https://i.ibb.co/wzxRvsM/dill-cumin-spice-seed-fenugreek-others-png-clip-art.png'
     },
     {
         id: '17',
@@ -287,8 +287,8 @@ const Data =[
         Usage: 'Seeds',
         feet: '20 ft container load of Cumin :12 ton - 40 ft container load of Cumin :25 ton .',
         description:' Packing: 25 kg in paper bag or pp bags  or as client request .',
-        image: '/assets/cumin.png',
-        photo: '/assets/cumin.png'
+        image: 'https://i.ibb.co/y5PPQXy/cumin-seeds-jeera-500x500-500x500.png',
+        photo: 'https://i.ibb.co/y5PPQXy/cumin-seeds-jeera-500x500-500x500.png'
     },
 
     {
@@ -305,8 +305,8 @@ const Data =[
         Usage: 'Seeds',
         feet: '20 ft container load of Fennel :15 ton - 40 ft container load of Fennel :25 ton .',
         description:'  uses, fennel and its seeds offer a wide array of health benefits and may provide antioxidant, anti-inflammatory. used to treat an array of digestive ailments, including heartburn .',
-        image: '/assets/fennel1.png',
-        photo: '/assets/fennel.png'
+        image: 'https://i.ibb.co/GxrFxgG/fennel-mukhwas-seed-cumin-spice-mustard-seed.jpg',
+        photo: 'https://i.ibb.co/9vS0Q5Z/fennel-seed-1000x.png'
     },
     {
         id: '19',
@@ -322,8 +322,8 @@ const Data =[
         Usage: 'Seeds',
         feet: '20 ft container load of fenugreek :15 ton - 40 ft container load of fenugreek :25 ton .',
         description:'uses of fenugreek seeds: herbs , Medicinal plants , aromatic , herbal tea,  spices, Fenugreek seeds are rich source of gum, fiber, alkaloid, flavonoids, saponin and...., potential applications of fenugreek as a functional food and nutraceutical.',
-        image: '/assets/Fenugreek.png',
-        photo: '/assets/Fenugreek3.png'
+        image: 'https://i.ibb.co/bWGVwGY/facts-about-fenugreek-theodore-medium-fenugreeks-png-562-410.png',
+        photo: 'https://i.ibb.co/LvWfpW2/images.jpg'
     },
 
     {
@@ -340,8 +340,8 @@ const Data =[
         Usage: 'Seeds',
         feet: 'CONTAINER CAPACITY19 ton/ 20 FCL',
         description:' Packing:	PP bags  & PAPER BAGS 25 kg',
-        image: '/assets/dill2.png',
-        photo: '/assets/dill2.png'
+        image: 'https://i.ibb.co/jLDpTL6/unnamed.png',
+        photo: 'https://i.ibb.co/wwFC2s9/sesame-seeds-png-sesame-seeds-png-transparent-hd-images-sesame-png-427-413.png'
     },
     {
         id: '21',
@@ -357,8 +357,8 @@ const Data =[
         Usage: 'Free of alive or dead insects or rodents.',
         feet: '20 ft container load of Coriander :6 ton - 40 ft container load of Coriander :11 ton .',
         description:'Packing in 25 kg paper bag or pp  bags  or as client request .',
-        image: '/assets/sesame2.png',
-        photo: '/assets/sesame3.png'
+        image: 'https://i.ibb.co/qYkGv3z/images.jpg',
+        photo: 'https://i.ibb.co/CVhyLZM/dried-coriander-seeds-olive-wood-260nw-1041544780.jpg'
     },
     {
         id: '22',
@@ -374,8 +374,8 @@ const Data =[
         Usage: 'Spices',
         feet: '20 ft container load of dried lemon  :5 ton - 40 ft container load of dried lemon  :10 ton .',
         description:'',
-        image: '/assets/dill2.png',
-        photo: '/assets/dill2.png'
+        image: 'https://i.ibb.co/NxZpYQM/images-2.jpg',
+        photo: 'https://i.ibb.co/NxZpYQM/images-2.jpg'
     },
     {
         id: '23',
@@ -391,8 +391,8 @@ const Data =[
         Usage: 'Part use: leaves,crushed',
         feet: 'Molokhia leaves, 1.5 ton/20 fcl - Molokhia leaves, 3 ton /40 fcl.',
         description:'Packing in Carton box 5 Kg per bag.',
-        image: '/assets/Molokhya.png',
-        photo: '/assets/Molokhya1.png'
+        image: 'https://i.ibb.co/q7KgLxC/images-3.jpg',
+        photo: 'https://i.ibb.co/X34C98F/Screen-Shot-2019-04-05-at-11-42-19-PM.png'
     },
     {
         id: '24',
@@ -408,8 +408,8 @@ const Data =[
         Usage: 'Foreign Materials:No Foreign Materials or Ash 0',
         feet: '6 ton / 20FCL - 12 ton / 40FCL.',
         description:' Used: Culinary, Medicinal ,flavor , industry & Tea',
-        image: '/assets/redChili.png',
-        photo: '/assets/redChili2.png'
+        image: 'https://i.ibb.co/yN5FStt/cayenne-pepper-png-images-free-png-library-chili-peppers-png-3552-2796.png',
+        photo: 'https://i.ibb.co/yN5FStt/cayenne-pepper-png-images-free-png-library-chili-peppers-png-3552-2796.png'
     }, 
     {
         id: '25',
@@ -425,8 +425,8 @@ const Data =[
         Usage: 'Spices',
         feet: '20 ft container load of rosemary :6 ton - 40 ft container load of rosemary :12 ton .',
         description:'Description :Drying Process :"SD" Sun dried - Size: Depend on Customers Needs - Aroma: Pungent Sweet -  Flavor:Characteristic flavor',
-        image: '/assets/rosmary.png',
-        photo: '/assets/rosmary.png'
+        image: 'https://i.ibb.co/tZ3Nmj6/rosemary-rosemary-rosemary-flowering-rosemary-tattoo-11563248681i5hkdlyjfn.png',
+        photo: 'https://i.ibb.co/THQP77G/114-1143163-transparent-rosemary-png.png'
     },
     {
         id: '26',
@@ -442,8 +442,8 @@ const Data =[
         Usage: 'Part use:  thyme',
         feet: '20 ft container load of Thyme :7 ton - 40 ft container load of Thyme :14 ton .',
         description:' uses Thyme is by mouth for bronchitis, whooping cough, sore throat, colic, arthritis, upset stomach, stomach pain gastritis, diarrhea, bedwetting, a movement disorder in children dyspraxia, intestinal gas flatulence, parasitic worm infections, and skin disorders .',
-        image: '/assets/thyme3.png',
-        photo: '/assets/thyme.png'
+        image: 'https://i.ibb.co/ZSJqY8X/flower-garden-thyme-herb-food-garden-thyme-spice-essential-oil-coriander-png-clipart.jpg',
+        photo: 'https://i.ibb.co/ZSJqY8X/flower-garden-thyme-herb-food-garden-thyme-spice-essential-oil-coriander-png-clipart.jpg'
     },
     {
         id: '27',
@@ -459,8 +459,8 @@ const Data =[
         Usage: 'Cut 10X10mm in case of dried',
         feet: ' Packing : boxes In Carton10 k.g',
         description:'  Chemical Specification : Moisture Content 10-14% Incase of Dried Tomato 6% Salt Ratio max. 8-9%',
-        image: '/assets/DriedTomotes2.png',
-        photo: '/assets/DriedTomotes.png'
+        photo: 'https://i.ibb.co/bLrj7m5/Sun-Dried-Tomatoes.png',
+        image: 'https://i.ibb.co/g9Dbg2R/scarlatto-red-pomodori-2016.png'
     },
     {
         id: '28',
@@ -476,8 +476,8 @@ const Data =[
         Usage: 'Special Product',
         feet: 'Sizes: 3-4cm, 4cm, 5cm, 5.5cm, 6cm, 6.5cm and up to 8 cm',
         description:'Length: 2, 5, 8, 10, 12, 15, 20 cm .',
-        image: '/assets/Garlic.png',
-        photo: '/assets/Garlic2.png'
+        photo: 'https://i.ibb.co/x5Xkznc/8721f5869b6a260d84d9b0b5a7e469a6.jpg',
+        image: 'https://i.ibb.co/cLWYpR9/purepng-com-garlicgarlicwhite-garlicrecepie-1701527256150ns7cx.png'
     },
     {
         id: '30',
@@ -493,27 +493,10 @@ const Data =[
         Usage: 'Special Product',
         feet: 'Container 40 feet Capacity 25 tons .',
         description:'',
-        image: '/assets/onion2.png',
-        photo: '/assets/onion3.png'
+        image: 'https://i.ibb.co/Xpy9YC9/unnamed.png',
+        photo: 'https://i.ibb.co/4PV7dms/images.jpg'
     },    
 ]
 
 export default Data
 
-//     {
-//         id: '2',
-//         category: 'Special Product',
-//         name:'Pimpinella',
-//         color: 'Brown',
-//         originOfBasil: 'Egypt',
-//         Type: ' conventional anise and organic basil.',
-//         harvestSeason: 'Available throughout the year ',
-//         SmellAndTaste : ' aromatic, typical.',
-//         purity : 'Purity 99%',
-//         Moisture: 'Moisture 8% - 10% max.',
-//         Usage: 'Spices',
-//         feet: '20 ft container load of basil :6 ton - 40 ft container load of basil :11 ton .',
-//         description:'',
-//         image: '/assets/dill2.png',
-//         photo: '/assets/dill2.png'
-//    },

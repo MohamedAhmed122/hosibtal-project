@@ -6,9 +6,8 @@ import { ThemeProvider } from "@material-ui/core";
 import Navbar from "./layout/navbar/navbar";
 import Footer from "./layout/footer/footer";
 import {Switch, Route} from 'react-router-dom'
-import HospitalPage from './pages/hospital/hospitalPage'
-import ProductOverview from "./Component/ProductOverView/ProductOverview";
-
+import HerbsPage from './pages/ProductHerbs/ProductHerbsPage'
+import HomePage from './pages/Home/HomePage'
 
 
 function App() {
@@ -18,7 +17,8 @@ function App() {
       <ThemeProvider theme={theme}>
         <Navbar />
         <Switch>
-          <Route exact path='/' component={ProductOverview} /> 
+        <Route exact path='/' component={HomePage} /> 
+          <Route exact path='/products' component={HerbsPage} /> 
         </Switch>
         <Footer />
       </ThemeProvider>
