@@ -14,7 +14,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import ExploreIcon from '@material-ui/icons/Explore';
-const HerbsListItem = ({ product }) => {
+const SpicesListItem = ({ product }) => {
   const classes = useStyles();
   return (
     <Fragment>
@@ -53,7 +53,15 @@ const HerbsListItem = ({ product }) => {
     </Fragment>
   );
 };
-export default HerbsListItem;
+export default SpicesListItem;
+
+
+
+
+
+
+
+
 
 const useStyles = makeStyles((theme) => ({
   learn: {

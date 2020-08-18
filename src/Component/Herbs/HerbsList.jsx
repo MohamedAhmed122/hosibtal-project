@@ -1,6 +1,6 @@
 import React from "react";
 import { Fragment } from "react";
-import HerbsListItem from "../HerbsListItem/HerbsListItem";
+import HerbsListItem from "./HerbsListItem";
 import { Grid, Typography, makeStyles } from "@material-ui/core";
 import Background from "../../assets/background.png";
 
