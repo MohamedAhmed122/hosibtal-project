@@ -8,10 +8,11 @@ const MenuDropdown = ({ setOpen, setAnchorEl, anchorEl, open }) => {
   const [value, setValue] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const menuItems = [
-    { name: "Services", link: "/service" },
-    { name: "Custom Software ", link: "/" },
-    { name: "Mobile App ", link: "/" },
-    { name: "Web ", link: "/" },
+    { name: " Products", link: "/products" },
+    { name: " Herbs Products", link: "/herbs" },
+    { name: " Spices Products", link: "/spices" },
+    { name: " Seeds Products", link: "/seeds" },
+    { name: " Special Products", link: "/specialProduct" },
   ];
   const handleMenuItem = (e, i) => {
     setAnchorEl(null);
@@ -49,10 +50,14 @@ export default MenuDropdown;
 const useStyles = makeStyles((theme) => ({
   menu: {
     ...theme.typography.menu,
-    backgroundColor: "#FFBA60",
-    color: "white",
+    backgroundColor: "#ecce76",
+    color: "black",
+    width: '12rem',
+    
+
   },
   menuItem: {
+    marginLeft: '1rem',
     fontFamily: "Raleway",
     fontWeight: 400,
     opacity: 0.5,

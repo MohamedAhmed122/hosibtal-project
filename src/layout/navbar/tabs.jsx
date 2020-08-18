@@ -1,12 +1,12 @@
 import React, { useState, Fragment } from "react";
 import { Tabs, Tab, makeStyles, Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
-// import MenuDropdown from "./Menu";
+import MenuDropdown from "./Menu";
 
 const NavbarTabs = () => {
   const [value, setValue] = useState(0);
-  // const [anchorEl, setAnchorEl] = useState(null);
-  // const [open, setOpen] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [open, setOpen] = useState(false);
   const classes = useStyles();
   return (
     <Fragment>
@@ -25,12 +25,12 @@ const NavbarTabs = () => {
           label="Products"
           component={Link}
           to="/products"
-          //   aria-owns={anchorEl ? "simple-menu" : null}
-          //   aria-haspopup={anchorEl ? "true" : null}
-          //   onMouseOver={(e) => {
-          //     setOpen(true);
-          //     setAnchorEl(e.currentTarget);
-          //   }}
+            aria-owns={anchorEl ? "simple-menu" : null}
+            aria-haspopup={anchorEl ? "true" : null}
+            onMouseOver={(e) => {
+              setOpen(true);
+              setAnchorEl(e.currentTarget);
+            }}
         />
         <Tab
           label="About Us"
@@ -47,12 +47,12 @@ const NavbarTabs = () => {
       >
         Contact Us
       </Button>
-      {/* <MenuDropdown
+      <MenuDropdown
         open={open}
         anchorEl={anchorEl}
         setAnchorEl={setAnchorEl}
         setOpen={setOpen}
-      /> */}
+      />
     </Fragment>
   );
 };

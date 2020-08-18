@@ -8,6 +8,9 @@ import Footer from "./layout/footer/footer";
 import { Switch, Route } from "react-router-dom";
 import HerbsPage from "./pages/HerbsPage/HerbsPage";
 import HomePage from "./pages/Home/HomePage";
+import ProductPage from "./pages/ProductPage/ProductPage";
+import SpicesPage from "./pages/SpicesPage/SpicesPage";
+import SecondaryProducts from './pages/SecondaryProductPage/SecondaryPoductPage'
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/products" component={HerbsPage} />
+          <Route exact path="/herbs" component={HerbsPage} />
+          <Route exact path="/products" component={ProductPage} />
+          <Route exact path="/spices" component={SpicesPage} />
+          <Route exact path="/specialProduct" component={SecondaryProducts} />
         </Switch>
         <Footer />
       </ThemeProvider>
