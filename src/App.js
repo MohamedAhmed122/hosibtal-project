@@ -10,7 +10,8 @@ import HerbsPage from "./pages/HerbsPage/HerbsPage";
 import HomePage from "./pages/Home/HomePage";
 import ProductPage from "./pages/ProductPage/ProductPage";
 import SpicesPage from "./pages/SpicesPage/SpicesPage";
-import SecondaryProducts from './pages/SecondaryProductPage/SecondaryPoductPage'
+import SecondaryProducts from "./pages/SecondaryProductPage/SecondaryPoductPage";
+import SeedsPage from "./pages/SeedsPage/SeedsPage";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route exact path="/products" component={ProductPage} />
           <Route exact path="/spices" component={SpicesPage} />
           <Route exact path="/specialProduct" component={SecondaryProducts} />
+          <Route exact path="/seeds" component={SeedsPage} />
+          
         </Switch>
         <Footer />
       </ThemeProvider>

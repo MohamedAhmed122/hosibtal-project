@@ -17,7 +17,7 @@ const HerbsList = ({ products }) => {
       >
         <Grid item>
           <Typography className={classes.info} variant="h3">
-            Our Products
+            Herbs Products
           </Typography>
         </Grid>
       </Grid>

@@ -33,6 +33,8 @@ const MenuDropdown = ({ setOpen, setAnchorEl, anchorEl, open }) => {
     >
       {menuItems.map((item, i) => (
         <MenuItem
+          divider
+          button
           key={i}
           classes={{ root: classes.menuItem }}
           component={Link}
@@ -52,12 +54,12 @@ const useStyles = makeStyles((theme) => ({
     ...theme.typography.menu,
     backgroundColor: "#ecce76",
     color: "black",
-    width: '12rem',
-    
-
+    width: "12rem",
+  
   },
   menuItem: {
-    marginLeft: '1rem',
+    marginTop: '0.7rem',
+    marginLeft: "1rem",
     fontFamily: "Raleway",
     fontWeight: 400,
     opacity: 0.5,
