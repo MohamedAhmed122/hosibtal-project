@@ -17,7 +17,7 @@ const SeedsList = ({ products }) => {
       >
         <Grid item>
           <Typography className={classes.info} variant="h3">
-            Seeds Products
+          <span style={{color: '#15888d',fontFamily: 'Pacifico', fontSize: '5rem'}}>8</span> Seeds Products
           </Typography>
         </Grid>
       </Grid>

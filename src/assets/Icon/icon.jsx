@@ -5,9 +5,8 @@ const Icon20 =()=>{
     return(
         <Fragment>
             <img alt='Icon20' src={icon20} style={{
-                marginTop: 'orem',
-                height: '3rem',
-                width: '3rem',
+                height: '2rem',
+                width: '2rem',
             }} />
         </Fragment>
     )

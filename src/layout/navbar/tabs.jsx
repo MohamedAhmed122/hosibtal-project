@@ -35,7 +35,7 @@ const NavbarTabs = () => {
         <Tab
           label="About Us"
           component={Link}
-          to="/medicines"
+          to="/about"
           className={classes.tabs}
         />
       </Tabs>

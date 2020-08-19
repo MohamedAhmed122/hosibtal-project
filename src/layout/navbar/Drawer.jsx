@@ -56,7 +56,7 @@ const Drawer = () => {
             divider
             onClick={() => setOpen(false)}
           >
-            <ListItemText>Login</ListItemText>
+            <ListItemText>Contact Us</ListItemText>
           </ListItem>
         </List>
       </SwipeableDrawer>

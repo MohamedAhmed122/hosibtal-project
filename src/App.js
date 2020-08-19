@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/specialProduct" component={SecondaryProducts} />
           <Route exact path="/seeds" component={SeedsPage} />
           <Route exact path="/contact" component={ContactPage} />
-          <Route exact path="/medicines" component={AboutPage} />
+          <Route exact path="/about" component={AboutPage} />
           
 
           <Route path={"/specialProduct/:id"} component={ProductDetail} />

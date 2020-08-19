@@ -17,7 +17,7 @@ const SpecialList = ({ products }) => {
       >
         <Grid item>
           <Typography className={classes.info} variant="h3">
-            Special Products
+          <span style={{color: '#15888d',fontFamily: 'Pacifico', fontSize: '5rem'}}>3</span> Special Products
           </Typography>
         </Grid>
       </Grid>
