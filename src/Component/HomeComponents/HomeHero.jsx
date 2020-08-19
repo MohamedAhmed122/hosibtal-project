@@ -1,7 +1,7 @@
 import React from "react";
 import { Fragment } from "react";
 import { Grid, makeStyles, Typography, Button } from "@material-ui/core";
-import hero from "../../assets/hero.png";
+import hero from "../../assets/hero1.png";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import TelegramIcon from "@material-ui/icons/Telegram";
 const HeroHome = () => {
@@ -10,7 +10,7 @@ const HeroHome = () => {
     <Fragment>
       <Grid
         container
-        style={{ height: "45em", marginBottom: "8rem" }}
+        style={{ height: "800px", marginBottom: "8rem" }}
         alignItems="center"
         direction="column"
         className={classes.infoBackground}
@@ -39,6 +39,11 @@ const HeroHome = () => {
   );
 };
 export default HeroHome;
+
+
+
+
+
 
 
 

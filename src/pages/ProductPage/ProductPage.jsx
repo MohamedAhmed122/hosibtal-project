@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import { Grid, makeStyles, Typography } from "@material-ui/core";
 import ProductOverview from "../../Component/ProductOverview/ProductOverview";
-import Background from "../../assets/background.png";
+import Background from "../../assets/baseBackground.png";
 
 const ProductPage = () => {
   const classes = useStyle();
@@ -11,7 +11,7 @@ const ProductPage = () => {
     <Fragment>
       <Grid
         container
-        style={{ height: "25em", marginBottom: "12rem" }}
+        style={{ height: "45em", marginBottom: "12rem" }}
         alignItems="center"
         direction="row"
         className={classes.infoBackground}

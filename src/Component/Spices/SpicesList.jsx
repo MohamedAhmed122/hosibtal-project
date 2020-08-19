@@ -2,7 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import SpicesListItem from "./SpicesListItem";
 import { Grid, Typography, makeStyles } from "@material-ui/core";
-import Background from "../../assets/background.png";
+import Background from "../../assets/baseBackground.png";
 
 const SpicesList = ({ products }) => {
   const classes = useStyle();
@@ -10,7 +10,7 @@ const SpicesList = ({ products }) => {
     <Fragment>
       <Grid
         container
-        style={{ height: "25em", marginBottom: "8rem" }}
+        style={{ height: "45em", marginBottom: "8rem" }}
         alignItems="center"
         direction="row"
         className={classes.infoBackground}
