@@ -19,6 +19,11 @@ export default createMuiTheme({
     },
   },
   typography: {
+    subtitle1:{
+      fontSize: "1rem",
+      fontWeight: 200,
+      color: arcGrey
+    },
     orderBtn: {
       backgroundColor: "white",
       borderColor: arcBlue,

@@ -41,7 +41,7 @@ const SeedsListItem = ({ product }) => {
                     Learn Now{" "}
                     <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
                   </Button>
-                  <Button className={classes.learn} variant="outlined">
+                  <Button className={classes.learn} variant="outlined"  component={Link} to='/contact'>
                     Order Now{" "}
                     <ShoppingCartIcon style={{ marginLeft: "0.3rem" }} />
                   </Button>

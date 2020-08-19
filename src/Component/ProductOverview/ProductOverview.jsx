@@ -7,8 +7,8 @@ import herbs from "../../assets/herbs1.png";
 import spicesBackground from "../../assets/Spices2.png";
 import seeds from "../../assets/seeds2.png";
 import special from "../../assets/other2.png";
-
-
+import { Link } from "react-router-dom";
+// import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 const ProductOverview = () => {
   const classes = useStyle();
@@ -39,8 +39,13 @@ const ProductOverview = () => {
             creations
             <FormatQuoteIcon />
           </Typography>
-          <Button variant="outlined" className={classes.btn}>
-            Take a Tour <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
+          <Button
+            variant="outlined"
+            className={classes.btn}
+            component={Link}
+            to="/herbs"
+          >
+            Read More <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
           </Button>
         </Grid>
       </Grid>
@@ -63,11 +68,20 @@ const ProductOverview = () => {
           <Typography className={classes.subSpices} variant="subtitle1">
             <FormatQuoteIcon style={{ transform: "scaleX(-1)" }} />
             They add flavour, aroma, texture and colour to your culinary
-            creations
+            creations <br />
+            texture and colour to your culinary creations
             <FormatQuoteIcon />
           </Typography>
-          <Button variant="outlined" className={classes.Sbtn}>
-            Take a Tour <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
+          <Button
+            variant="outlined"
+            className={classes.Sbtn}
+            component={Link}
+            to="/spices"
+          >
+            <ArrowForwardIcon
+              style={{ transform: "scaleX(-1)", marginRight: "0.5rem" }}
+            />{" "}
+            Read More
           </Button>
         </Grid>
       </Grid>
@@ -97,12 +111,17 @@ const ProductOverview = () => {
             creations
             <FormatQuoteIcon />
           </Typography>
-          <Button variant="outlined" className={classes.btn}>
-            Take a Tour <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
+          <Button
+            variant="outlined"
+            className={classes.btn}
+            component={Link}
+            to="/seeds"
+          >
+            Read More <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
           </Button>
         </Grid>
       </Grid>
-              { /* -----------                     special                    ---------*/}
+      {/* -----------                     special                    ---------*/}
       <Grid
         container
         style={{
@@ -122,10 +141,20 @@ const ProductOverview = () => {
             <FormatQuoteIcon style={{ transform: "scaleX(-1)" }} />
             They add flavour, aroma, texture and colour to your culinary
             creations
+            <br />
+            texture and colour to your culinary creations
             <FormatQuoteIcon />
           </Typography>
-          <Button variant="outlined" className={classes.Sbtn}>
-            Take a Tour <ArrowForwardIcon style={{ marginLeft: "0.3rem" }} />
+          <Button
+            variant="outlined"
+            className={classes.Sbtn}
+            component={Link}
+            to="/specialProduct"
+          >
+            <ArrowForwardIcon
+              style={{ transform: "scaleX(-1)", marginRight: "0.5rem" }}
+            />{" "}
+            Read More
           </Button>
         </Grid>
       </Grid>
@@ -185,8 +214,7 @@ const useStyle = makeStyles((theme) => ({
   },
   subSpices: {
     ...theme.typography.sub,
-    marginLeft: "56rem",
-    marginTop: "1rem",
+    textAlign: "right",
     [theme.breakpoints.down("md")]: {
       fontSize: "1rem",
       marginLeft: "12rem",
@@ -199,7 +227,7 @@ const useStyle = makeStyles((theme) => ({
   Sbtn: {
     ...theme.typography.contactBtn,
     ...theme.typography.btn,
-    marginLeft: "56rem",
+    marginLeft: "72rem",
     marginTop: "1rem",
     [theme.breakpoints.down("md")]: {
       marginLeft: "12rem",

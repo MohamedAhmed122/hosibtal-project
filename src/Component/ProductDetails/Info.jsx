@@ -18,6 +18,7 @@ import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import EcoIcon from "@material-ui/icons/Eco";
 import { Typography, Grid, Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 const Info = ({ Product }) => {
   const classes = useStyles();
   return (
@@ -114,7 +115,7 @@ const Info = ({ Product }) => {
             <ArrowBackIcon style={{ marginRight: "0.3rem" }} />
             Go Back
           </Button>
-          <Button className={classes.learn} variant="outlined">
+          <Button className={classes.learn} variant="outlined" component={Link} to='/contact'>
             Order Now <ShoppingCartIcon style={{ marginLeft: "0.3rem" }} />
           </Button>
         </Grid>
