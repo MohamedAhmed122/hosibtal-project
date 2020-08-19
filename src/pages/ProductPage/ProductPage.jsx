@@ -22,15 +22,7 @@ const ProductPage = () => {
           </Typography>
         </Grid>
       </Grid>
-      <Grid container>
-        <Grid item lg={1}></Grid>
-        <Grid item lg={10}>
-          <Grid container justify="space-around">
-            <ProductOverview />
-          </Grid>
-        </Grid>
-        <Grid item lg={10}></Grid>
-      </Grid>
+      <ProductOverview />
     </Fragment>
   );
 };

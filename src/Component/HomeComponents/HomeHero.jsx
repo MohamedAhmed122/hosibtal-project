@@ -10,7 +10,7 @@ const HeroHome = () => {
     <Fragment>
       <Grid
         container
-        style={{ height: "800px", marginBottom: "8rem" }}
+        style={{ height: "750px", marginBottom: "8rem" }}
         alignItems="center"
         direction="column"
         className={classes.infoBackground}

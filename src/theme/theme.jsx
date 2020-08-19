@@ -3,6 +3,7 @@ import { createMuiTheme } from "@material-ui/core/styles";
 const arcBlue = "#15888d";
 const arcGreen = "#1d8794";
 const arcOrange = "#ecce76";
+const arcGrey='#868686'
 export default createMuiTheme({
   palette: {
     common: {
@@ -40,13 +41,13 @@ export default createMuiTheme({
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       height: "100%",
-      width: "100%",
-      filter: " brightness(60%)",
+      "&:hover": {
+        boxShadow: '2px 2px 4px 2px #15888d',
+      },
     },
     contactBtn: {
       backgroundColor: "#15888d",
       borderColor: "#15888d",
-      filter: " brightness(100%)",
       borderWidth: 2,
       textTransform: "none",
       color: "white",
@@ -85,6 +86,7 @@ export default createMuiTheme({
       fontWeight: 400,
       marginBottom: "1.3rem",
       filter: " brightness(100%)",
+      marginTop: "4rem",
     },
     sub: {
       fontSize: "1.4rem",
@@ -151,4 +153,26 @@ export default createMuiTheme({
       },
     },
   },
+  overrides: {
+    MuiInputLabel: {
+      root: {
+        color: arcBlue,
+        fontSize: "1rem"
+      }
+    },
+    MuiInput: {
+      root: {
+        color: arcGrey,
+        fontWeight: 300
+      },
+      underline: {
+        "&:before": {
+          borderBottom: `2px solid ${arcBlue}`
+        },
+        "&:hover:not($disabled):not($focused):not($error):before": {
+          borderBottom: `2px solid ${arcBlue}`
+        }
+      }
+    }
+  }
 });
