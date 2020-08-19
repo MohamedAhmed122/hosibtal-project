@@ -14,6 +14,7 @@ import SecondaryProducts from "./pages/SecondaryProductPage/SecondaryPoductPage"
 import SeedsPage from "./pages/SeedsPage/SeedsPage";
 import ProductDetail from "./pages/ProductDetails/ProductDetails";
 import ContactPage from './pages/contactPage/contactPage'
+import AboutPage from "./pages/AboutPage/aboutPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/specialProduct" component={SecondaryProducts} />
           <Route exact path="/seeds" component={SeedsPage} />
           <Route exact path="/contact" component={ContactPage} />
+          <Route exact path="/medicines" component={AboutPage} />
           
 
           <Route path={"/specialProduct/:id"} component={ProductDetail} />
