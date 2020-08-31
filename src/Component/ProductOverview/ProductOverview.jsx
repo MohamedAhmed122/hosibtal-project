@@ -67,9 +67,11 @@ const ProductOverview = () => {
           </Typography>
           <Typography className={classes.subSpices} variant="subtitle1">
             <FormatQuoteIcon style={{ transform: "scaleX(-1)" }} />
-            They add flavour, aroma, texture and colour to your culinary
-            creations <br />
-            texture and colour to your culinary creations
+            Spices are one of the most important products that are used in the
+            <br />
+            kitchen and used in many industries such as medicine, perfumes and
+            <br />
+            flavors, and they give a better results dried than fresh.
             <FormatQuoteIcon />
           </Typography>
           <Button
@@ -99,16 +101,13 @@ const ProductOverview = () => {
       >
         <Grid item>
           <Typography variant="h4" className={classes.mainHerbs}>
-            Make Mealtimes Herbalicious
+            indispensable Products
           </Typography>
           <Typography className={classes.subHerbs} variant="subtitle1">
             <FormatQuoteIcon style={{ transform: "scaleX(-1)" }} />
-            Fresh herbs can turn the simplest meal tinto something <br />
-            exciting and special, Providing that extra character that bring
-            other ingredients <br />
-            into balance. <br />
-            They add flavour, aroma, texture and colour to your culinary
-            creations
+            Seeds are products of indispensable importance in extracting oils,
+            <br />
+            tea and flavors, and they are also involved in many industries.
             <FormatQuoteIcon />
           </Typography>
           <Button
@@ -135,14 +134,14 @@ const ProductOverview = () => {
       >
         <Grid item>
           <Typography variant="h4" className={classes.mainSpices}>
-            Various Taste & Flavours
+            Special Products
           </Typography>
           <Typography className={classes.subSpices} variant="subtitle1">
             <FormatQuoteIcon style={{ transform: "scaleX(-1)" }} />
-            They add flavour, aroma, texture and colour to your culinary
-            creations
-            <br />
-            texture and colour to your culinary creations
+            They are Egyptian products characterized by their high quality,
+            <br /> they are very excellent Egyptian garlic of all sizes,
+            Egyptian onions<br /> that are 
+            rich in definition, and Egyptian dried tomatoes.
             <FormatQuoteIcon />
           </Typography>
           <Button
@@ -179,7 +178,7 @@ const useStyle = makeStyles((theme) => ({
 
     [theme.breakpoints.down("md")]: {
       fontSize: "2rem",
-      marginRight: "40rem",
+      marginRight: "43rem",
     },
 
     [theme.breakpoints.down("sm")]: {
@@ -205,7 +204,7 @@ const useStyle = makeStyles((theme) => ({
 
     [theme.breakpoints.down("md")]: {
       fontSize: "2rem",
-      marginLeft: "13rem",
+      marginLeft: "43rem",
     },
     [theme.breakpoints.down("sm")]: {
       fontSize: "2rem",
@@ -230,7 +229,7 @@ const useStyle = makeStyles((theme) => ({
     marginLeft: "72rem",
     marginTop: "1rem",
     [theme.breakpoints.down("md")]: {
-      marginLeft: "12rem",
+      marginLeft: "47rem",
     },
     [theme.breakpoints.down("sm")]: {
       marginLeft: "1rem",

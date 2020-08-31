@@ -55,6 +55,8 @@ const Drawer = () => {
             button
             divider
             onClick={() => setOpen(false)}
+            component={Link}
+            to='/contact'
           >
             <ListItemText>Contact Us</ListItemText>
           </ListItem>

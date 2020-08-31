@@ -50,7 +50,7 @@ const Data = [
     SmellAndTaste: "Smell and Taste is Aromatically And Typically ",
     purity: "purity : 98 - 99%",
     Moisture: "Moisture 5% Max.",
-    Usage: "Part use: lowers, petal, tea bag cut, pollen   ",
+    Usage: "Part use: flowers, petal, tea bag cut, pollen   ",
     feet:
       "20 ft container load of chamomile :3.5 ton - 40 ft container load of chamomile :7 ton ",
     description:

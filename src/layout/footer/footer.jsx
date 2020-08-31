@@ -29,17 +29,35 @@ const Footer = () => {
                 component={Link}
                 to="/products"
                 className={classes.link}
-                style={{marginLeft:'0.6rem'}} 
+                style={{ marginLeft: "0.6rem" }}
               >
                 Products
               </Grid>
-              <Grid item component={Link} style={{marginLeft:'0.6rem'}}  to="/herbs" className={classes.link}>
+              <Grid
+                item
+                component={Link}
+                style={{ marginLeft: "0.6rem" }}
+                to="/herbs"
+                className={classes.link}
+              >
                 Herbs
               </Grid>
-              <Grid item component={Link} style={{marginLeft:'0.6rem'}} to="/specialProduct" className={classes.link}>
-              special Products
+              <Grid
+                item
+                component={Link}
+                style={{ marginLeft: "0.6rem" }}
+                to="/specialProduct"
+                className={classes.link}
+              >
+                special Products
               </Grid>
-              <Grid item component={Link} style={{marginLeft:'0.6rem'}}  to="/seeds" className={classes.link}>
+              <Grid
+                item
+                component={Link}
+                style={{ marginLeft: "0.6rem" }}
+                to="/seeds"
+                className={classes.link}
+              >
                 Seeds
               </Grid>
             </Grid>
@@ -58,7 +76,6 @@ const Footer = () => {
               <Grid item component={Link} to="/about" className={classes.link}>
                 The Factory
               </Grid>
-
             </Grid>
           </Grid>
           <Grid item className={classes.gridItem}>
@@ -98,42 +115,46 @@ const Footer = () => {
             </Grid>
           </Grid>
         </Grid>
-      </Hidden>
 
-      <Grid
-        container
-        justify="flex-end"
-        spacing={2}
-        className={classes.socialContainer}
-      >
         <Grid
-          item
-          component={"a"}
-          href="https://www.facebook.com"
-          rel="noopener noreferrer"
-          target="_blank"
+          container
+          justify="flex-end"
+          spacing={2}
+          className={classes.socialContainer}
         >
-          <img alt="facebook logo" src={facebook} className={classes.icon} />
+          <Grid
+            item
+            component={"a"}
+            href="https://www.facebook.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img alt="facebook logo" src={facebook} className={classes.icon} />
+          </Grid>
+          <Grid
+            item
+            component={"a"}
+            href="https://www.twitter.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img alt="twitter logo" src={twitter} className={classes.icon} />
+          </Grid>
+          <Grid
+            item
+            component={"a"}
+            href="https://www.instagram.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="instagram logo"
+              src={instagram}
+              className={classes.icon}
+            />
+          </Grid>
         </Grid>
-        <Grid
-          item
-          component={"a"}
-          href="https://www.twitter.com"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img alt="twitter logo" src={twitter} className={classes.icon} />
-        </Grid>
-        <Grid
-          item
-          component={"a"}
-          href="https://www.instagram.com"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img alt="instagram logo" src={instagram} className={classes.icon} />
-        </Grid>
-      </Grid>
+      </Hidden>
     </footer>
   );
 };
@@ -162,7 +183,6 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.1rem",
     fontWeight: 500,
     textDecoration: "none",
-    
   },
   gridItem: {
     margin: "3em",

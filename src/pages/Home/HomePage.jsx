@@ -2,14 +2,20 @@ import React from "react";
 import HeroHome from "../../Component/HomeComponents/HomeHero";
 import Overview from "../../Component/HomeComponents/HomeOverview";
 import { Grid, Typography, makeStyles } from "@material-ui/core";
-import Icon20 from "../../assets/Icon/icon";
+import HomeText from "../../Component/HomeComponents/HomeText";
+import HomeFeatures from "../../Component/HomeComponents/HomeFeatures";
+
+import MainStepper from "../../Component/HomeComponents/Stepper/MainStepper";
+
 
 const HomePage = () => {
   const classes = useStyles();
   return (
     <div>
       <HeroHome />
-      <Grid container>
+      <HomeText />
+      <HomeFeatures />
+      <Grid container style={{marginBottom: '9rem'}}>
         <Grid item lg={1}></Grid>
         <Grid item lg={10}>
           <Typography variant="h3" style={{marginTop: '2rem', marginBottom:'2rem'}} className={classes.mainText}>
@@ -21,6 +27,7 @@ const HomePage = () => {
         </Grid>
         <Grid item lg={10}></Grid>
       </Grid>
+      <MainStepper />
     </div>
   );
 };

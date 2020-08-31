@@ -24,6 +24,7 @@ const MainContact = () => {
       case "email":
         setEmail(event.target.value);
         error = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(
+          // eslint-disable-next-line
           event.target.value
         );
         if (!error) {
@@ -34,7 +35,8 @@ const MainContact = () => {
         break;
       case "phone":
         setPhone(event.target.value);
-        error = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/.test(
+        error = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\\./0-9]*$/.test(
+          // eslint-disable-next-line
           event.target.value
         );
         if (!error) {
@@ -71,29 +73,21 @@ const MainContact = () => {
                       color: "#15888d",
                     }}
                   >
-                    Contact US
+                    CONTACT US
                   </Typography>
-                  <Typography
-                    variant="subtitle1"
-                    style={{
-                      color: "#15888d",
-                      margin: "1rem",
-                      marginBottom: "1rem",
-                      marginLeft: "2rem",
-                    }}
-                  >
+                  <Typography className={classes.subTitle} variant="subtitle1">
                     what're you waiting for?
                   </Typography>
                 </Grid>
                 <Grid item container>
                   <Grid item className={classes.img}></Grid>
-                  <Grid item>
+                  <Grid item className={classes.gridText}>
                     <Typography
                       style={{ color: "#15888d", fontSize: "1rem" }}
                       variant="subtitle1"
                     >
                       <a
-                        href="tel:+7(913)-113-66-37"
+                        href="https://api.whatsapp.com/send?phone=+7(913)-113-66-37"
                         style={{ color: "#15888d", textDecoration: "none" }}
                       >
                         +5(555)-555-55-55
@@ -102,14 +96,8 @@ const MainContact = () => {
                   </Grid>
                 </Grid>
                 <Grid item container>
-                  <Grid item className={classes.img}>
-                    {/* <img
-                      src={emailIcon}
-                      alt="email"
-                      style={{ marginRight: "0.5rem", marginTop: "0.5rem" }}
-                    /> */}
-                  </Grid>
-                  <Grid item>
+                  <Grid item className={classes.img}></Grid>
+                  <Grid item className={classes.gridText}>
                     <Typography
                       style={{ color: "#15888d", fontSize: "1rem" }}
                       variant="subtitle1"
@@ -175,7 +163,7 @@ const MainContact = () => {
                     variant="outlined"
                   >
                     Send Message
-                    <NearMeIcon style={{marginLeft: 7}} />
+                    <NearMeIcon style={{ marginLeft: 7 }} />
                   </Button>
                 </Grid>
               </Grid>
@@ -190,6 +178,20 @@ const MainContact = () => {
 export default MainContact;
 
 const useStyles = makeStyles((theme) => ({
+  subTitle: {
+    color: "#15888d",
+    margin: "1rem",
+    marginBottom: "1rem",
+    textAlign: "center",
+  },
+  gridText: {
+    marginLeft: "2rem",
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "0rem",
+    },
+    [theme.breakpoints.down("md")]: {},
+  },
+
   Background: {
     backgroundPosition: "center",
     backgroundSize: "cover",
@@ -204,15 +206,20 @@ const useStyles = makeStyles((theme) => ({
     width: 500,
 
     [theme.breakpoints.down("sm")]: {
-      maxWidth: "30em",
+      maxWidth: "20em",
     },
   },
   text: {
     width: 500,
     marginTop: "1rem",
     marginLeft: "7rem",
+
+    [theme.breakpoints.down("md")]: {
+      maxWidth: "20em",
+      marginLeft: "3rem",
+    },
     [theme.breakpoints.down("sm")]: {
-      maxWidth: "27em",
+      maxWidth: "20em",
       marginLeft: "1rem",
     },
   },
@@ -230,9 +237,9 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "3rem",
     width: 225,
     "&:hover": {
-        backgroundColor: "white",
-        borderColor: "#15888d",
-        color:'#15888d'
+      backgroundColor: "white",
+      borderColor: "#15888d",
+      color: "#15888d",
     },
   },
   img: {
