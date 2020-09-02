@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Grid, Typography, makeStyles } from "@material-ui/core";
-import history from "../../assets/history.svg";
+// import history from "../../assets/history.svg";
 const History = () => {
   const classes = useStyles();
   return (
@@ -32,9 +32,9 @@ const History = () => {
             extensive selection of herbs, spices, Seeds.
           </Typography>
         </Grid>
-        <Grid item>
+        {/* <Grid item>
           <img className={classes.historyImg} src={history} alt="history" />
-        </Grid>
+        </Grid> */}
       </Grid>
     </Fragment>
   );

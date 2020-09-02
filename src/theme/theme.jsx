@@ -116,6 +116,7 @@ export default createMuiTheme({
       position: "relative",
       "&:hover": {
         opacity: 0.7,
+        
       },
     },
     learnMoreBtn: {

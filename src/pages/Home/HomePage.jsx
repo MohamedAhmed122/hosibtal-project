@@ -25,7 +25,7 @@ const HomePage = () => {
             <Overview />
           </Grid>
         </Grid>
-        <Grid item lg={10}></Grid>
+        <Grid item lg={1}></Grid>
       </Grid>
       <MainStepper />
     </div>

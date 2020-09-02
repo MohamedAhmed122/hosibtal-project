@@ -167,16 +167,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     zIndex: 1302,
   },
-  // adornment: {
-  //   width: "25em",
-  //   verticalAlign: "bottom",
-  //   [theme.breakpoints.down("md")]: {
-  //     width: "21em"
-  //   },
-  //   [theme.breakpoints.down("xs")]: {
-  //     width: "15em"1d8794
-  //   }
-  // },
+
   link: {
     color: "white",
     fontFamily: "Arial",

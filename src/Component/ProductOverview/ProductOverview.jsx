@@ -8,7 +8,7 @@ import spicesBackground from "../../assets/Spices2.png";
 import seeds from "../../assets/seeds2.png";
 import special from "../../assets/other2.png";
 import { Link } from "react-router-dom";
-// import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+
 
 const ProductOverview = () => {
   const classes = useStyle();
